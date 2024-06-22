@@ -1,0 +1,67 @@
+.adviceBox {
+  background-color: var(--box-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 2rem 0;
+  gap: 2rem;
+  width: 40rem;
+  border-radius: 20px;
+  margin: 2rem;
+}
+.processing {
+  transform: translateY(30px);
+  background-color: var(--advice-color);
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.4s;
+  user-select: none;
+  pointer-events: none;
+}
+
+.adviceBox > p {
+  text-align: center;
+  color: var(--advice-color);
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-size: 0.9rem;
+}
+.adviceBox > h1 {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.adviceBox > img {
+  user-select: none;
+}
+.diceWrapper {
+  transform: translateY(30px);
+  background-color: var(--advice-color);
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.4s;
+  user-select: none;
+}
+.dice {
+  font-size: 1.8rem;
+  color: black;
+  opacity: 0.8;
+}
+.diceWrapper:hover {
+  box-shadow: var(--advice-color) 0px 7px 29px 0px;
+}
+
+.loading {
+  width: 2rem;
+  height: auto;
+}
+
+@media only screen and (max-width: 1100px) {
+  .diceWrapper {
+    transform: translateY(20px);
+  }
+}
