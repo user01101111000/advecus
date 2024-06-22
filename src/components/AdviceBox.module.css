@@ -43,8 +43,8 @@
   padding: 1rem;
   border-radius: 50%;
   cursor: pointer;
-  transition: all 0.4s;
   user-select: none;
+  transition: box-shadow 0.3s;
 }
 .dice {
   font-size: 1.8rem;
@@ -53,6 +53,10 @@
 }
 .diceWrapper:hover {
   box-shadow: var(--advice-color) 0px 7px 29px 0px;
+}
+
+.diceWrapper:active {
+  transform: translateY(30px) rotate(360deg);
 }
 
 .loading {
