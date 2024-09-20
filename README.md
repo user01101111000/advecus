@@ -8,5 +8,5 @@
 
 </br>
 
-<div align="center"><img src ="/src/assets/images/ADVECUS.png" alt="advecus" width="100%" title='advecus' />
+<div align="center"><img src ="/src/assets/images/advecus.png" alt="advecus" width="100%" title='advecus' />
 </div>
