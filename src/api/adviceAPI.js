@@ -1,15 +1,13 @@
-import axios from "axios";
-import apiConfig from "./apiConfig";
-async function fetchAdvice() {
-  try {
-    const response = await axios.get(apiConfig.url);
+import getAxiosInstance from "../api/axios_instance";
 
-    const { id, advice } = response.data.slip;
+export default async function fetchAdvice() {
+  try {
+    const { data } = await getAxiosInstance().get();
+
+    const { id, advice } = data.slip;
 
     return { id, advice };
   } catch (error) {
     console.log(error);
   }
 }
-
-export default fetchAdvice;
