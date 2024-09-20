@@ -1,5 +1,5 @@
 <div align="center">
-<img src ="/src/assets/images/ADVECUS.gif" alt="nextjs" width="30%" title='curon' />
+<img src ="/src/assets/images/ADVECUS.gif" alt="nextjs" width="30%" title='advecus' />
 </div>
 
 </br>
@@ -8,5 +8,5 @@
 
 </br>
 
-<div align="center"><img src ="/src/assets/images/advecus.png" alt="nextjs" width="100%" title='curon' />
+<div align="center"><img src ="/src/assets/images/advecus.png" alt="nextjs" width="100%" title='advecus' />
 </div>
